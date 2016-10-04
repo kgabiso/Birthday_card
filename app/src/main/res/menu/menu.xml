@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_Previous"
+        android:icon="@drawable/ic_skip_previous_black_24dp"
+        android:title="Previous"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_Next"
+        android:icon="@drawable/ic_skip_next_black_24dp"
+        android:title="Next"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_from"
+        android:title="From:"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_to"
+        android:title="To:"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        app:showAsAction="never"/>
+
+</menu>
